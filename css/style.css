@@ -78,6 +78,8 @@ main > .form-container {
   display: flex;
   width: 600px;
   height: 60px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .form-container > input {

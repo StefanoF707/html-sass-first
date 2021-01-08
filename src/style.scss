@@ -3,6 +3,7 @@ $mainColor: #E50914;
 $secondColor: #fff;
 $brandFont: arial;
 $maxWidthElements: 600px;
+$bRadius: 5px;
 // /VARIABLES
 
 * {
@@ -51,7 +52,7 @@ header > .btn {
    font-size: 20px;
    background: $mainColor;
    padding: 10px 15px;
-   border-radius: 5px;
+   border-radius: $bRadius;
 }
 
 #wrapper > main {
@@ -83,6 +84,8 @@ main > .form-container {
    display: flex;
    width: $maxWidthElements;
    height: 60px;
+   border-radius: $bRadius;
+   overflow: hidden;
 }
 
 .form-container > input {
