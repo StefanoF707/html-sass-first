@@ -4,6 +4,41 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: red;
+.img100 {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  font-family: arial;
+}
+
+#wrapper {
+  height: 100vh;
+  background: #0000007a;
+}
+
+#wrapper > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 40px;
+}
+
+header > .img-container {
+  width: 170px;
+}
+
+header > .btn {
+  color: #fff;
+  font-size: 20px;
+  background: #E50914;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
